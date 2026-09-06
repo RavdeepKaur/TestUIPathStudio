@@ -95,7 +95,7 @@
     <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build collection Cities US" FirstItem="New York" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="BuildCollection`1_2" Result="[Cities(&quot;US&quot;)]">
       <uasc:BuildCollection.NextItems>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-          <InArgument x:TypeArguments="x:String">Absford</InArgument>
+          <InArgument x:TypeArguments="x:String">San Diego</InArgument>
           <InArgument x:TypeArguments="x:String">Hamilton</InArgument>
           <InArgument x:TypeArguments="x:String">San Francisco</InArgument>
         </scg:List>
@@ -114,6 +114,7 @@
       <uasc:AppendItemToCollection.Items>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
           <InArgument x:TypeArguments="x:String">Portland</InArgument>
+          <InArgument x:TypeArguments="x:String">Holland</InArgument>
         </scg:List>
       </uasc:AppendItemToCollection.Items>
       <sap:WorkflowViewStateService.ViewState>
